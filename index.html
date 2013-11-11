@@ -23,7 +23,7 @@
         <br>
         <a href="http://zhengxupan.com/portfolio/">Portfolio</a>
         
- <style sloped>      
+ <style scoped>      
 blockquote,
 a blockquote,
 h2#page_title a:hover,
@@ -150,6 +150,7 @@ figure.logo a {
 }
 
 </style> 
+
 <div id="touch_menu">&nbsp;</div>
 
       </header>
@@ -174,4 +175,22 @@ figure.logo a {
     <script src="javascripts/scale.fix.js"></script>
     
   </body>
+  
+  <script>
+  // CBEAT
+  var _sf_async_config = { uid: 1721, domain: 'svbtle.com'};
+  (function() {
+    function loadChartbeat() {
+      window._sf_endpt = (new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src','//static.chartbeat.com/js/chartbeat.js');
+      document.body.appendChild(e);
+    };
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+      loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script>
 </html>
