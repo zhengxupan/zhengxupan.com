@@ -198,8 +198,8 @@ hr {
 }
 
 footer {
-  width:270px;
-  float:left;
+  width:870px;
+  float:right;
   position:fixed;
-  bottom:3px;
+  bottom:1px;
 }
