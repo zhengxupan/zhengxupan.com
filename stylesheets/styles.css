@@ -18,14 +18,15 @@ h4 {
     margin:0 0 3px;
   }
 h5 {
-  margin:0 0 3px;
+ 
   font-size: 5px;
 }
 
 
   h6 {
+    margin:0 0 3px;
     font-size:3px;
-    color:#999;
+    color:#808080;
   }
     
   }
