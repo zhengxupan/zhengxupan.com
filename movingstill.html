@@ -7,24 +7,8 @@
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-  <style>
-    /* Prevents slides from flashing */
-    #slides {
-      display:none;
-    }
-  </style>
-
-  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <script src="/jquery.slides.min.js"></script>
-
-  <script>
-    $(function(){
-      $("#slides").slidesjs({
-        width: 940,
-        height: 528
-      });
-    });
-  </script>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="/responsiveslides.min.js"></script>
     
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
@@ -76,14 +60,11 @@
 
       <hr>
 
-<div id="slides">
-    <img src="http://farm6.staticflickr.com/5532/10814610686_55d2eb8ff2.jpg">
-    <img src="http://farm6.staticflickr.com/5532/10814610686_55d2eb8ff2.jpg">
-    <img src="http://farm6.staticflickr.com/5532/10814610686_55d2eb8ff2.jpg">
-    <img src="http://farm6.staticflickr.com/5532/10814610686_55d2eb8ff2.jpg">
-    <img src="http://farm6.staticflickr.com/5532/10814610686_55d2eb8ff2.jpg">
-  </div>
-
+<ul class="rslides">
+  <li><img src="http://farm6.staticflickr.com/5532/10814610686_55d2eb8ff2.jpg" alt=""></li>
+  <li><img src="2.jpg" alt=""></li>
+  <li><img src="3.jpg" alt=""></li>
+</ul>
 
       </section>
       
@@ -95,6 +76,13 @@
     
     <script src="javascripts/scale.fix.js"></script>
     
+      <script>
+  $(function() {
+    $(".rslides").responsiveSlides();
+  });
+</script>
+    
   </body>
-  
+
+
 </html>
