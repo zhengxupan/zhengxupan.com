@@ -49,6 +49,11 @@ a {
   font-size:5px;
   text-decoration:none;
 }
+a:-webkit-any-link {
+color: -webkit-link;
+text-decoration: none;
+cursor: auto;
+}
 
 a small {
   font-size:11px;
