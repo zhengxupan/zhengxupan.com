@@ -291,41 +291,7 @@ footer {
   font-weight: bold;
   }
 
-a {
-  color: #fff;
-  text-decoration: none;
-  }
-
-#download {
-  background: #333;
-  background: rgba(255,255,255,.1);
-  border: 1px solid rgba(255,255,255,.1);
-  border-radius: 5px;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  display: block;
-  font-size: 20px;
-  font-weight: bold;
-  margin: 60px auto;
-  max-width: 500px;
-  padding: 20px;
-  }
-
-#download:hover {
-  background: rgba(255,255,255,.15);
-  }
-
-.footer {
-  font-size: 11px;
-  }
-
 /* Callback example */
-
-h3 {
-  font: 20px/30px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-align: center;
-  color: #fff;
-  }
 
 .events {
   list-style: none;
