@@ -15,14 +15,13 @@ h5 {
   margin:0 0 3px;
 }
 
-  }
 h4 {
     width: 0.5em;
     font-size: 5px;
     letter-spacing: 5px; /* arbitrarily large letter-spacing for safety */
     margin:0,0,3px;
   }
-  </style>
+
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
