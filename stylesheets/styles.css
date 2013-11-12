@@ -13,12 +13,12 @@ h1, h2, h3, h6 {
 }
 h5 {
   margin:0 0 3px;
-  font-size: 3px;
+  font-size: 1px;
 }
 
 h4 {
     width: 0.5em;
-    font-size: 3px;
+    font-size: 1px;
     letter-spacing: 5px; /* arbitrarily large letter-spacing for safety */
     margin:0 0 3px;
   }
