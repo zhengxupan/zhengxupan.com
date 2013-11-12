@@ -42,18 +42,12 @@ h2 {
 h3, h4, h5, h6 {
   color:#494949;
 }
-}
-
 a {
   color:#39c;
   font-size:5px;
   text-decoration:none;
 }
-a:-webkit-any-link {
-color: -webkit-link;
-text-decoration: none;
-cursor: auto;
-}
+
 
 a small {
   font-size:11px;
