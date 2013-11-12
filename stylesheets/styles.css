@@ -19,7 +19,7 @@ h4 {
     width: 0.5em;
     font-size: 5px;
     letter-spacing: 5px; /* arbitrarily large letter-spacing for safety */
-    margin:0,0,3px;
+    margin:0 0 3px;
   }
 
 p, ul, ol, table, pre, dl {
